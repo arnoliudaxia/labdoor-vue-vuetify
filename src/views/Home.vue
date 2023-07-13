@@ -1,5 +1,5 @@
 <script>
-const backEndHost = "http://localhost:8000";
+const backEndHost = "https://opendoorapi.liuyf7.top";
 
 export default {
 //要触发响应式更新的所有变量
