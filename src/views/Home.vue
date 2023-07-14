@@ -15,7 +15,7 @@ export default {
     openTheDoor() {
       // this.snackbar = true;
       // return;
-      fetch(this.hostname + '/api/open')
+      fetch(backEndHost + '/api/open')
         .then(response => response.text())
         .then(data => {
           // 处理响应数据
